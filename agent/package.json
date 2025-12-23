@@ -1,0 +1,14 @@
+{
+  "name": "weiruan-agent",
+  "version": "1.0.0",
+  "description": "威软探针 - 被控端Agent",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2"
+  },
+  "author": "威软探针",
+  "license": "MIT"
+}
