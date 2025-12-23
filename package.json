@@ -1,0 +1,22 @@
+{
+  "name": "weiruan-jiankong",
+  "version": "1.0.0",
+  "description": "威软探针 - 专业的VPS监控系统",
+  "author": "威软探针",
+  "license": "MIT",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../agent && npm install && cd ../dashboard && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:dashboard": "cd dashboard && npm start",
+    "build:dashboard": "cd dashboard && npm run build",
+    "start:server": "cd server && npm start",
+    "test:agent": "cd agent && node index.js"
+  },
+  "keywords": [
+    "monitoring",
+    "vps",
+    "server-monitoring",
+    "dashboard",
+    "real-time"
+  ]
+}

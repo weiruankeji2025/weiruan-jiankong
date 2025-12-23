@@ -1,0 +1,6 @@
+{
+  "serverUrl": "ws://localhost:3002",
+  "token": "your-server-token-here",
+  "reportInterval": 3000,
+  "pingTarget": "8.8.8.8"
+}
